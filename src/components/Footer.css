@@ -1,0 +1,42 @@
+.footer-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+
+.footer-img{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 120px;
+margin: 0;
+padding: 0;
+}
+
+.footer-img img{
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    }
+
+    @keyframes fadeSlideUp {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .animate {
+        animation: fadeSlideUp 4s ease-out forwards;
+      }
+      
+    
+    

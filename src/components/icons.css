@@ -1,0 +1,111 @@
+.icon-container ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+
+}
+.icon-container ul li a{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* color: white; */
+}
+
+.icon-container ul li:hover{
+  cursor: pointer;
+}
+
+ul .whatsapp {
+  color: #3efa05;
+}
+
+ul .Instagram {
+  color: rgba(233, 0, 12, 0.678);
+}
+
+ul li a {
+  color: #ebeced;
+
+}
+
+ul li a:hover {
+  color: #d3d3d3;
+
+}
+
+
+/* -----animation */
+
+@keyframes fade {
+  from {
+    scale: 0.5;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.animate-fade1 {
+  animation: fade 0.30s ease-out forwards;
+}
+
+
+@keyframes fade {
+  from {
+    scale: 0.5;
+
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.animate-fade2 {
+  animation: fade 1s ease-out forwards;
+}
+
+
+@keyframes fade {
+  from {
+    scale: 0.5;
+
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.animate-fade3 {
+  animation: fade 1.30s ease-out forwards;
+}
+
+
+@keyframes fade {
+  from {
+    scale: 0.5;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.animate-fade4 {
+  animation: fade 2s ease-out forwards;
+}
+
+
+
