@@ -15,7 +15,7 @@ return(
 </div>
 
 <div className="name-container animate-fade">
-    <h2>Buildify | web services </h2>
+    <h2>Buildify | web service</h2>
     
     <div className="badge-container">
     <img src={Badge} alt="" />

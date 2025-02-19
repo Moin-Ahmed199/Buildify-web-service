@@ -23,11 +23,12 @@ min-width: 300px;
 box-shadow: 0 0px 6px  rgba(255, 255, 255, 0.76); 
 backdrop-filter: blur(10px);
 cursor: pointer; 
+gap: 5px;
 }
 
 .link-div1:hover, 
 .link-div2:hover, .link-div3:hover{
-    background-color: #d3d3d3;
+    background-color: white;
     transition: 0.5s ;
 }
 
@@ -58,6 +59,22 @@ p{
 
 }
 
+
+
+.link-button{
+  background-color: #0e151c; 
+  width: 70%;
+  color:#ebeced ;
+  padding: 5px 0px 5px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.link-button:hover{
+  background-color: transparent;
+  color: #0e151c;
+}
 
 @media screen and (max-width: 700px) {
  
