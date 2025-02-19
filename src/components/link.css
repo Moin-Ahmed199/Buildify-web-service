@@ -8,7 +8,7 @@
 
 .link-div1, .link-div2, .link-div3{
     /* padding: 10px 1rem 10px 1rem; */
-    padding: 1rem;
+    padding: 10px;
     margin: 1rem  5px 1rem 5px; 
     /* background-color: whitesmoke; */
     border-radius: 5px;
@@ -71,10 +71,23 @@ p{
   transition: 0.2s ease-in-out;
 }
 
+
+
 .link-button:hover{
   background-color: transparent;
   color: #0e151c;
+
 }
+
+
+.link-div1 a, .link-div2 a, .link-div3 a{
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
 
 @media screen and (max-width: 700px) {
  
